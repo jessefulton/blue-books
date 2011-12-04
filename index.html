@@ -18,6 +18,17 @@
 			#lightbox-nav-btnNext { display: none; }
 			.note { font-style: italic; }
 			.note sup { font-style: normal; }
+			#comments {
+				color: #D1D1D1;
+				background-color: black;
+				padding: 16px;
+				clear: both;
+				float: left;
+				width: 808px;
+				margin: 0;
+				position: relative;
+				margin-top: 32px;
+			}
 		</style>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>		
 		<script type="text/javascript" src="http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/jquery.lightbox-0.5.min.js"></script>
@@ -127,11 +138,30 @@
 							and <a href="http://help.github.com/send-pull-requests/">anybody can contribute</a> to it.
 						</p>
 					</div>
-
 				</div>
 			</div>
+
+			<div id="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'jessefulton'; // required: replace example with your forum shortname
+					var disqus_url = "http://portfolio.jessefulton.com/blue-books/";
+				
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+
 		</div>
 		<div class="clearfix"></div>
+
 
 </body>
 </html>
