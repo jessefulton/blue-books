@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<title>Occupy Blue Books: Let There Be Fees (Blue Book Hacking)</title>
+	<meta name="author" content="Jesse Fulton" />
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="en-US" />
+		<meta name="description" content="Jesse Fulton - Artist, Programmer, Hacker" />
+		<meta name="keywords" content="artist,designer,internet art,net art,social practice,performance art,tactical media,public art,street art,open source,FLOSS,performance,front end,frontend,web,web development,jesse,fulton,jesse fulton,MFA,Santa Cruz, Los Angeles, San Francisco,ca,california,design,art,technology,geek,nerd,research,mechatronics,UCSC" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/jquery.lightbox-0.5.css" media="screen" rel="stylesheet" type="text/css" /></style>
+		<style type="text/css">
+			#menu-learn { letter-spacing: -1px; }
+			#lightbox-nav-btnNext { display: none; }
+		</style>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>		
+		<script type="text/javascript" src="http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/jquery.lightbox-0.5.min.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function() {
+				$("#tabs a").click(function() {
+					$("#tabs li").removeClass("active");
+					$(this).parent().addClass("active");
+					var tgt = ($(this).attr("href"));
+					$('html, body').animate({scrollTop: $(tgt).offset().top - 64}, 1000);
+					return false;
+				});
+
+				$('a.lightbox').each(function() {
+					$(this).lightBox({
+						overlayBgColor: '#000',
+						overlayOpacity: 0.9,
+						imageLoading: 'http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/images/lightbox-ico-loading.gif',
+						imageBtnClose: 'http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/images/lightbox-btn-close.gif',
+						imageBtnPrev: 'http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/images/lightbox-btn-prev.gif',
+						imageBtnNext: 'http://jessefulton.com/js/jquery/plugins/jquery.lightbox-0.5/images/lightbox-btn-next.gif',
+						containerResizeSpeed: 500
+					});
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+
+
+        <div id="tabs">
+            <ul class="navigation">
+			    <li class="active">
+			        <a id="menu-about" href="#learn"><span>What?</span></a>
+			    </li>
+			    <li>
+			        <a id="menu-act" href="#occupy-remix"><span>Occupy & Remix</span></a>
+			    </li>
+			</ul>
+			<div id="headerlogo"><a href="http://jessefulton.com/"><span>home</span></a></div>
+		</div>	
+	
+		<div id="wrapper">
+            
+            <div id="main">
+				<div class='content'>
+					<h1>Occupy Blue Books</h1>
+					
+					<div id="learn">
+						<h3>Huh?</h3>
+						<p>
+							Fees and tuition for public higher education in the state of California have
+							been increasing at record rates. Last Spring, in response to the unjustifiable fee increases,
+							a UCSC student<sup><a href="#contact-me">*</a></sup> created a print of a modified University of California seal addressing
+							the issue, subtly replacing the motto of "<a class="lightbox" href="images/uc-seal.png">Let There Be Light</a>" with "<a class="lightbox" href="images/seal-print.jpg">Let There Be Fees</a>"
+						</p>
+						<p>
+							I couldn't let such a great idea die. So, I appropriated the logo and printed it onto
+							about 25 "blue books" (examination books.)
+							After (re-)printing the blue books, I planted the hacked exam books amongst the standard blue books for sale in 
+							UCSC's Bay Tree book store.
+						</p>
+						<div class="video">
+							<iframe src="http://player.vimeo.com/video/33087476?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179" width="536" height="402" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						</div>
+						<p class="note">
+							<sup><a name="contact-me" id="contact-me">*</a></sup>If anybody knows artist, please <a href="http://jessefulton.com/contact/">let me know</a>.
+						</p>
+						<!--
+						<div>
+							<ul>
+								<li>
+								
+								<li>
+									<a href="http://www.uaw2865.org/wp-content/uploads/2011/09/Sept-2011-Cuts-Flyer-Berkeley.pdf">The privatization of the UC system</a> by the <a href="http://www.uaw2865.org/">UAW</a>
+								</li>
+								<li>
+									<a href="http://www.ucop.edu/budget/fees/documents/history_fees.pdf">UC Fees (History)</a>
+								</li>
+									<a href="http://teachthebudget.com/new-flyers/">Teach the Budget</a>
+								<li>
+								</li>
+									<a href="http://occupyca.wordpress.com/">Occupy CA</a>
+								<li>
+								</li>
+									<a href="http://www.makebankspaycalifornia.com/refund_public_education_action_week">ReFund California</a>
+								<li>
+								<li>
+									<a href="http://evan-roth.com/usps.php">Evan Roth - USPS</a>
+								</li>
+							</ul>
+						</div>
+						-->
+					</div>
+					<div id="occupy-remix">
+						<h3>occupy & remix</h3>
+						<p>
+							This project can't die here. It needs to continue. Occupy this hack. Download it. Remix it. Reprint it.
+						</p>
+
+						<p>
+							Take this project. Download the <a href="assets/FrontCover.psd">hacked blue book template</a> and follow the directions in the video above to
+							create your own hacked blue books. Print them up, hand them out, plant them somewhere - do anything.
+						</p>
+						<p>
+							Not from a UC school? Hack your own blue books and contribute them back to this project
+							at <a href="https://github.com/jessefulton/Blue-Books">github</a>. This project is open source
+							and <a href="http://help.github.com/send-pull-requests/">anybody can contribute</a> to it.
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+</body>
+</html>
